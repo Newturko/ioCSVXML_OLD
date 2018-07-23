@@ -55,6 +55,6 @@ This design is home work and its limited with data shema structer. I think compa
 
 
 # Opinions
-## Posible performance 
+## Posible performance issues
 This design for only specific data model and samples for ZipCode on Turkey Citys. I used linq functions for filterind and sorting. We cant work with big data with that logic. If we want to work big data, then we can design a specific data model and filtering functions.
 
