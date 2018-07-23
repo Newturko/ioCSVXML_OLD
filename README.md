@@ -39,22 +39,22 @@ Note: CSV data type are based on the templates of the schema files.
             XMLtoCSVAdvanced(InputFileName, OutPutFileName, Filters, Sorts);
 ...
             
-#Any assumptions and reasoning behind my API design
-##Assumptions
+# Any assumptions and reasoning behind my API design
+## Assumptions
 Api designed for importing and exporting two data format. However, it is based on List Logic and Linq Methods. Easy to use with specific data format.
 
-##Reasoning
+## Reasoning
 This design is home work and its limited with data shema structer. I think company change home work logic. This scheme limits the programmer. An import and export module without limited data shema can be writen.
 
 
-#Which Library Used
+# Which Library Used
 - System.IO -> For read and save files.
 - System.Linq -> For filtering and sorting.
 - System.Xml.Serialization - For working XML nodes and files.
 - Microsoft.VisualStudio.TestTools.UnitTesting  -> For Unit Test
 
 
-#Opinions
-##Posible performance 
+# Opinions
+## Posible performance 
 This design for only specific data model and samples for ZipCode on Turkey Citys. I used linq functions for filterind and sorting. We cant work with big data with that logic. If we want to work big data, then we can design a specific data model and filtering functions.
 
